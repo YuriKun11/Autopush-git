@@ -3,7 +3,7 @@
 ## Migrate Repository
 `git remote remove origin`
 
-`git remote add origin` paste-repo-link
+`git remote add origin (paste-repo-link here remove parenthesis)` 
 
 `git push -u origin master`
 
