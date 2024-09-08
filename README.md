@@ -1,13 +1,13 @@
 # Auto push git with python
 
-# Migrate Repository
+## Migrate Repository
 `git remote remove origin`
 
 `git remote add origin` paste-repo-link
 
 `git push -u origin master`
 
-# Update Repository
+## Update Repository
 `git pull origin master`
 
 `git add .`
@@ -16,11 +16,11 @@
 
 `git push -u origin master`
 
-# Remove Connections 
+## Remove Connections 
 `rmdir /s /q .git`
 
 
-# reinitialize git after removing connection
+## Reinitialize git after Removing Connection
 `git pull origin master --allow-unrelated-histories`
 
 `git add .`
