@@ -13,3 +13,4 @@ def run_command(command):
 run_command('git pull origin master')
 run_command('git add .')
 run_command('git commit -m "Resolved merge conflicts"')
+run_command('git push -u origin master')
