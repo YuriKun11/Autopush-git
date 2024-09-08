@@ -25,26 +25,3 @@ repo_link = input("Enter the repository link: ")
 run_command(f'git remote add origin {repo_link}')
 
 run_command('git push -u origin master')
-
-
-# -------If you want to push codes on different repository-------
-# git remote remove origin
-# git remote add origin {https://github.com/user/new}
-# git push -u origin master
-
-# -------If you want to change the content of your repo-------
-# git pull origin master
-# git add .
-# git commit -m "Resolved merge conflicts"
-
-# git push -u origin master
-
-# remove connections 
-# rmdir /s /q .git
-
-
-# reinitialize git after removing connection
-# git pull origin master --allow-unrelated-histories
-# git add . 
-# git commit -m "Resolved merge conflicts and merged unrelated histories"
-# git push origin master
