@@ -1,5 +1,6 @@
 # Auto push git with python
 
+Automate Git Push Operations
 
 ## TUTORIAL
 `git clone https://github.com/YuriKun11/Autopush-git`
