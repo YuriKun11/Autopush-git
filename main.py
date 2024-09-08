@@ -39,5 +39,12 @@ run_command('git push -u origin master')
 
 # git push -u origin master
 
-#remove connections 
-#rmdir /s /q .git
+# remove connections 
+# rmdir /s /q .git
+
+
+# reinitialize git after removing connection
+# git pull origin master --allow-unrelated-histories
+# git add . 
+# git commit -m "Resolved merge conflicts and merged unrelated histories"
+# git push origin master
