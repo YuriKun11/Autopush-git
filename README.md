@@ -1,5 +1,22 @@
 # Auto push git with python
 
+
+## TUTORIAL
+`git clone https://github.com/YuriKun11/Autopush-git`
+
+First commit
+`py main.py`
+
+Update Repo
+
+`py update.py`
+
+Upload to Another Repo
+`py move.py`
+
+
+#Additional Info
+
 ## Migrate Repository
 `git remote remove origin`
 
