@@ -4,15 +4,11 @@
 ## TUTORIAL
 `git clone https://github.com/YuriKun11/Autopush-git`
 
-- First commit
-`py main.py`
+- First commit `py main.py`
 
-- Update Repo
+- Update Repo `py update.py`
 
-`py update.py`
-
-- Upload to Another Repo
-`py move.py`
+- Upload to Another Repo `py move.py`
 
 
 
