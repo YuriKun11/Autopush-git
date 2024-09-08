@@ -4,18 +4,18 @@
 ## TUTORIAL
 `git clone https://github.com/YuriKun11/Autopush-git`
 
-First commit
+- First commit
 `py main.py`
 
-Update Repo
+- Update Repo
 
 `py update.py`
 
-Upload to Another Repo
+- Upload to Another Repo
 `py move.py`
 
 
-#Additional Info
+
 
 ## Migrate Repository
 `git remote remove origin`
